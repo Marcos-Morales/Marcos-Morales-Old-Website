@@ -1,5 +1,6 @@
 #links {
     float: left;
+    color: black;
     background-color: white;
     height: 180px;
     margin: auto;
@@ -14,8 +15,10 @@
 }
 
 #links:hover {
+    transition: transform .5s ease-in-out;
+    transform: rotate(1080deg) scale(1.2);
     background-color: black;
-    color: azure;
+    color:azure;
 }
 
 #ou {
@@ -27,6 +30,10 @@ h1 {
     color: azure;
     font-weight: bold;
     text-decoration: underline;
+}
+
+#h1:hover{
+    color: black;
 }
 
 #pic1 {
@@ -56,7 +63,11 @@ body {
     border: 3px solid black;
 }
 
-#projectpage::after hover {
+#githublink{
+    color:black;
+}
+
+#projectpage:hover {
     background-color: black;
     color: azure;
 }
