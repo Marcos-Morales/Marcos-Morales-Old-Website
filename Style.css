@@ -38,18 +38,7 @@ h1 {
 }
 
 body {
-    background-color: darkred;
-}
-
-#projectspage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-    text-align: center;
-    padding: 10px;
+    background-color: crimson;
 }
 
 #projectpage {
@@ -62,6 +51,7 @@ body {
     text-align: center;
     padding: 10px;
     width: 50%;
+    border: 3px solid black;
 }
 
 #aboutme {
@@ -74,10 +64,13 @@ body {
     text-align: center;
     padding: 10px;
     width: 60%;
+    border: 3px solid black;
 }
 
 #aboutme:hover {
-        background-color: skyblue;
+    transition: transform .5s ease-in-out;
+    transform: rotate(1080deg) scale(.8);
+    background-color: burlywood;
 }
 
 #skillpagecol1 {
@@ -90,16 +83,13 @@ body {
     text-align: center;
     padding: 10px;
     width: 50%;
-}
-
-#skillpagecol1:hover{
-    transition: transform .5s ease-in-out;
-    transform: rotate(1080deg) scale(1.2);
-    background-color: mistyrose;
+    border: 3px solid black;
 }
 
 #skillpagecol1:hover {
-    background-color: skyblue;
+    transition: transform .5s ease-in-out;
+    transform: rotate(1080deg) scale(.8);
+    background-color: burlywood;
 }
 
 li {
@@ -120,5 +110,7 @@ li {
 }
 
 #homepage:hover {
-    background-color: skyblue;
+    transition: transform .5s ease-in-out;
+    transform: rotate(1080deg) scale(.8);
+    background-color: burlywood;
 }
