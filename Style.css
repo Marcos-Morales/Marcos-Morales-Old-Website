@@ -10,10 +10,12 @@
     border: double solid;
     text-decoration: none;
     font-size: 20px;
+    border: 3px solid black;
 }
 
 #links:hover {
-    background-color: mintcream;
+    background-color: black;
+    color: azure;
 }
 
 #ou {
@@ -54,6 +56,11 @@ body {
     border: 3px solid black;
 }
 
+#projectpage::after hover {
+    background-color: black;
+    color: azure;
+}
+
 #aboutme {
     display: block;
     margin-left: auto;
@@ -70,7 +77,8 @@ body {
 #aboutme:hover {
     transition: transform .5s ease-in-out;
     transform: scale(1.0);
-    background-color: mintcream;
+    background-color: black;
+    color: azure;
 }
 
 #skillpagecol1 {
@@ -87,9 +95,8 @@ body {
 }
 
 #skillpagecol1:hover {
-    transition: transform .5s ease-in-out;
-    transform: scale(1.0);
-    background-color: mintcream;
+    background-color: black;
+    color: azure;
 }
 
 li {
@@ -110,7 +117,6 @@ li {
 }
 
 #homepage:hover {
-    transition: transform .5s ease-in-out;
-    transform: rotate(1080deg) scale(1.0);
-    background-color: mintcream;
+    background-color: black;
+    color: azure;
 }
