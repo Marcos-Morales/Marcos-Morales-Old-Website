@@ -13,7 +13,7 @@
 }
 
 #links:hover {
-    background-color: burlywood;
+    background-color: mintcream;
 }
 
 #ou {
@@ -69,8 +69,8 @@ body {
 
 #aboutme:hover {
     transition: transform .5s ease-in-out;
-    transform: rotate(1080deg) scale(.5);
-    background-color: burlywood;
+    transform: scale(1.0);
+    background-color: mintcream;
 }
 
 #skillpagecol1 {
@@ -88,8 +88,8 @@ body {
 
 #skillpagecol1:hover {
     transition: transform .5s ease-in-out;
-    transform: rotate(1080deg) scale(.5);
-    background-color: burlywood;
+    transform: scale(1.0);
+    background-color: mintcream;
 }
 
 li {
@@ -111,6 +111,6 @@ li {
 
 #homepage:hover {
     transition: transform .5s ease-in-out;
-    transform: rotate(1080deg) scale(.5);
-    background-color: burlywood;
+    transform: rotate(1080deg) scale(1.0);
+    background-color: mintcream;
 }
