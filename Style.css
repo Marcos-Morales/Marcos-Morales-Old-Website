@@ -93,6 +93,12 @@ body {
 }
 
 #skillpagecol1:hover {
+    transition: transform .5s ease-in-out;
+    transform: rotate(1080deg) scale(1.2);
+    background-color: mistyrose;
+}
+
+#skillpagecol1:hover {
     background-color: skyblue;
 }
 
